@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import os
 import sys
 import decorators as d
@@ -9,6 +10,21 @@ def main():
     say_hi_to_Jawad()
     print("Finishing main()")
 
+"""
+The expected output of main() will be as follows:
+Starting main()
+
+Before the function squad
+WHEE
+Finito, fam
+
+Started say_oink()
+OINK
+Finished say_oink()
+
+Hi Jawad
+Finishing main()
+"""
 
 # ~~~~ Function definitions ~~~~
 
