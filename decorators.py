@@ -14,6 +14,7 @@ def function_name():
     put_code_here
 
 """
+
 # ~~~~ The Decorators ~~~~
 
 def simple_decorator(func):
