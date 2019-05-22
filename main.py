@@ -1,6 +1,5 @@
 import os
 import sys
-import otherfile as f
 import decorators as d
 
 def main():
