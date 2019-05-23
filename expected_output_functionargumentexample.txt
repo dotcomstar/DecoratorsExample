@@ -1,0 +1,4 @@
+Starting examples of functions as arguments:
+Hello Bob
+Yo Bob, together we are the awesomest!
+Finished with example

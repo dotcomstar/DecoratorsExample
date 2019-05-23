@@ -1,0 +1,13 @@
+Starting main()
+
+Before the function squad
+WHEE
+Finito, fam
+
+Started say_oink()
+OINK
+Finished say_oink()
+
+Hi Jawad
+
+Finishing main()

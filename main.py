@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import os
 import sys
 import decorators as d
@@ -7,8 +8,7 @@ def main():
     say_whee()
     say_oink()
     say_hi_to_Jawad()
-    print("Finishing main()")
-
+    print("\nFinishing main()")
 
 # ~~~~ Function definitions ~~~~
 

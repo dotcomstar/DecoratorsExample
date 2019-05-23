@@ -14,8 +14,10 @@ def function_name():
     put_code_here
 
 """
+
 # ~~~~ The Decorators ~~~~
 
+ # This decorator does not work with functions that take parameters or return values.
 def simple_decorator(func):
     def wrapper():
         print("Before the function squad")
@@ -23,7 +25,7 @@ def simple_decorator(func):
         print("Finito, fam")
     return wrapper
 
-# This decorator can be used on functions with parameters
+# This decorator can be used on functions with parameters and return values.
 def print_function_names(func):
     @functools.wraps(func)
     def wrapper_decorator(*args, **kwargs):  # This allows the function's parameters to be passed along.
