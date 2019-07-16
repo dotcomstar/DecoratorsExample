@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import os
 import sys
-import functools  # You need to this import to use decorators on functions with parameters.
+import functools  # You need to import this to use decorators on functions with parameters.
 
 """
 Note: Each decorator takes a function as an input. See the function/argument example file for
