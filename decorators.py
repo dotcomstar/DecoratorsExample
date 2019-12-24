@@ -17,7 +17,7 @@ def function_name():
 
 # ~~~~ The Decorators ~~~~
 
- # This decorator does not work with functions that take parameters or return values.
+# This decorator does not work with functions that take parameters or return values.
 def simple_decorator(func):
     def wrapper():
         print("Before the function squad")
